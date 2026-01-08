@@ -18,6 +18,7 @@ export default function Home() {
               <div className="hidden lg:flex gap-8">
                 <a href="#about" className="text-sm font-medium text-white hover:text-white/80 transition-colors uppercase">O NAS</a>
                 <a href="#products" className="text-sm font-medium text-white hover:text-white/80 transition-colors uppercase">PRODUKTY</a>
+                <a href="/faq" className="text-sm font-medium text-white hover:text-white/80 transition-colors uppercase">FAQ</a>
                 <a href="#contact" className="text-sm font-medium text-white hover:text-white/80 transition-colors uppercase">KONTAKT</a>
                 <a href="/privacy" className="text-sm font-medium text-white hover:text-white/80 transition-colors uppercase">PRYWATNOŚĆ</a>
                 <a href="/terms" className="text-sm font-medium text-white hover:text-white/80 transition-colors uppercase">REGULAMIN</a>
@@ -70,8 +71,8 @@ export default function Home() {
               <h2 className="text-5xl font-bold mb-6 italic">PÓŁKI WISZĄCE TOPOLOGY</h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Nasze półki, powstające w technologii druku 3D, są wynikiem precyzyjnych obliczeń oraz 
-                inspiracji naturą. Dzięki optymalizacji topologicznej tworzymy formy, które są zarówno niezwykle 
-                wytrzymałe, o lekki strukturze, organicznie wygięte dopełnią najbardziej współczesne wnętrze.
+                inspiracji naturą. Dzięki optymalizacji topologicznej tworzymy formy, które są zarówno lekkie, 
+                jak i wytrzymałe, a ich unikalny, organiczny wygląd dodaje charakteru każdemu wnętrzu.
               </p>
               <Button className="bg-[#e8895f] hover:bg-[#d67850] text-white px-8 py-4">
                 ZOBACZ DOKUMENTACJĘ
@@ -272,6 +273,102 @@ export default function Home() {
                   </Button>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="py-20 bg-gradient-to-r from-slate-900 to-slate-800 text-white">
+        <div className="container mx-auto px-4">
+          <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+            <div>
+              <h2 className="text-4xl font-bold mb-6 italic">GET IN TOUCH</h2>
+              <p className="text-lg text-gray-300 mb-8">
+                Feel free to reach out, we are happy to address your questions
+              </p>
+              
+              <div className="space-y-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-[#e8895f] rounded-full flex items-center justify-center text-2xl flex-shrink-0">
+                    🏠
+                  </div>
+                  <div>
+                    <h3 className="font-bold mb-1">Address</h3>
+                    <p className="text-gray-300">Hajnowska 1A, 17-220 Narewka</p>
+                    <p className="text-gray-300">Poland</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-[#e8895f] rounded-full flex items-center justify-center text-2xl flex-shrink-0">
+                    📞
+                  </div>
+                  <div>
+                    <h3 className="font-bold mb-1">Phone</h3>
+                    <p className="text-gray-300">(+48) 887 600 255</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-[#e8895f] rounded-full flex items-center justify-center text-2xl flex-shrink-0">
+                    ✉️
+                  </div>
+                  <div>
+                    <h3 className="font-bold mb-1">Email</h3>
+                    <p className="text-gray-300">contact@topology.pl</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h2 className="text-4xl font-bold mb-6 italic">CONTACT US</h2>
+              <form className="space-y-4">
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-sm mb-2">Imię</label>
+                    <input 
+                      type="text" 
+                      className="w-full px-4 py-3 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#e8895f]"
+                      placeholder="Twoje imię"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm mb-2">Nazwisko</label>
+                    <input 
+                      type="text" 
+                      className="w-full px-4 py-3 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#e8895f]"
+                      placeholder="Twoje nazwisko"
+                    />
+                  </div>
+                </div>
+                
+                <div>
+                  <label className="block text-sm mb-2">Adres e-mail</label>
+                  <input 
+                    type="email" 
+                    className="w-full px-4 py-3 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#e8895f]"
+                    placeholder="twoj@email.pl"
+                  />
+                </div>
+                
+                <div>
+                  <label className="block text-sm mb-2">Komentarz lub wiadomość</label>
+                  <textarea 
+                    rows={5}
+                    className="w-full px-4 py-3 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#e8895f]"
+                    placeholder="Twoja wiadomość..."
+                  />
+                </div>
+                
+                <button 
+                  type="submit"
+                  className="w-full bg-[#e8895f] hover:bg-[#d67850] text-white font-bold py-4 px-8 rounded-md transition-colors text-lg"
+                >
+                  Wyślij wiadomość
+                </button>
+              </form>
             </div>
           </div>
         </div>
