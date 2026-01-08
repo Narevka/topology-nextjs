@@ -1,0 +1,35 @@
+
+---Downloaded files---
+The import files for: Home 1 were successfully downloaded!
+Initial max execution time = -1
+Files info:
+Site URL = https://www.topology.pl
+Data file = /home/srv73823/domains/topology.pl/public_html/wp-content/plugins/strollik5-core/dummy-data/content.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[WARNING] Failed to import "newsletter": Invalid post type mc4wp-form
+
+
+---ocdi/after_import---
+
