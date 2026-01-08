@@ -101,10 +101,20 @@ export default function Home() {
                 />
               </CardHeader>
               <CardContent className="p-8 text-center">
-                <h3 className="text-3xl font-bold mb-4 italic">FORCE COLOR</h3>
-                <p className="text-gray-300 mb-6">
+                <h3 className="text-3xl font-bold mb-4 italic group-hover:hidden">FORCE COLOR</h3>
+                <p className="text-gray-300 mb-6 group-hover:hidden">
                   Printed from plastic with unique color transitions
                 </p>
+                
+                {/* Hover content */}
+                <div className="hidden group-hover:block">
+                  <h3 className="text-3xl font-bold mb-4 italic">FORCE COLOR</h3>
+                  <p className="text-gray-300 mb-6">
+                    Our 3D printed shelf bracket is a captivating piece of decor. Crafted using topology optimization, 
+                    it offers exceptional strength. Its multicolored design visually showcases stress points.
+                  </p>
+                </div>
+
                 <Button variant="outline" className="border-white text-white hover:bg-white hover:text-black transition-all">
                   READ MORE
                 </Button>
@@ -122,12 +132,22 @@ export default function Home() {
                 />
               </CardHeader>
               <CardContent className="p-8 text-center">
-                <h3 className="text-3xl font-bold mb-4 italic text-gray-900">CARBON CORE</h3>
-                <p className="text-gray-700 mb-6">
+                <h3 className="text-3xl font-bold mb-4 italic text-gray-900 group-hover:hidden">CARBON CORE</h3>
+                <p className="text-gray-700 mb-6 group-hover:hidden">
                   Printed from filament reinforced with carbon fibers
                 </p>
+
+                {/* Hover content */}
+                <div className="hidden group-hover:block">
+                  <h3 className="text-3xl font-bold mb-4 italic text-gray-900">CARBON CORE</h3>
+                  <p className="text-gray-700 mb-6">
+                    The full black carbon fiber shelf bracket is a fusion of technology and aesthetics. Black bracket—is 
+                    reinforced with carbon fiber. Using topology optimization makes design uniquely modern.
+                  </p>
+                </div>
+
                 <Button className="bg-gray-900 hover:bg-gray-800 text-white">
-                  READ MORE
+                  MORE DETAILS
                 </Button>
               </CardContent>
             </Card>
@@ -143,12 +163,23 @@ export default function Home() {
                 />
               </CardHeader>
               <CardContent className="p-8 text-center">
-                <h3 className="text-3xl font-bold mb-4 italic">SINTER STEEL</h3>
-                <p className="text-white/90 mb-6">
+                <h3 className="text-3xl font-bold mb-4 italic group-hover:hidden">SINTER STEEL</h3>
+                <p className="text-white/90 mb-6 group-hover:hidden">
                   In super wytrzymałości wykonanie ze stali
                 </p>
+
+                {/* Hover content */}
+                <div className="hidden group-hover:block">
+                  <h3 className="text-3xl font-bold mb-4 italic">SINTER STEEL</h3>
+                  <p className="text-white/90 mb-6">
+                    It is created in a process of sintering steel powder using powerful lasers in a heated chamber, 
+                    where layer by layer, an exceptionally strong structure is formed. This extreme method of 3D printing 
+                    utilizes an exotic, advanced material that sets new standards in technology and design.
+                  </p>
+                </div>
+
                 <Button variant="outline" className="border-white text-white hover:bg-white hover:text-teal-600 transition-all">
-                  READ MORE
+                  EXPLORE
                 </Button>
               </CardContent>
             </Card>
@@ -226,7 +257,7 @@ export default function Home() {
               <div>
                 <h3 className="text-4xl font-bold italic mb-6">3D PRINTED SHELF 60×20</h3>
                 <p className="text-gray-700 mb-6 leading-relaxed">
-                  This 3D-printed wall shelf is the result of a topology optimization, ensuring the ideal balance of strength and material efficiency.
+                  This multicolor 3D-printed bookshelf is crafted using advanced topology optimization, ensuring the ideal balance of strength and material efficiency.
                 </p>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-center gap-2">
@@ -271,6 +302,47 @@ export default function Home() {
                   <Button className="flex-1 bg-[#e8895f] hover:bg-[#d67850] text-white py-6 text-lg">
                     ADD TO CART
                   </Button>
+                </div>
+
+                <div className="mt-8 pt-8 border-t">
+                  <h4 className="text-2xl font-bold mb-4">Description</h4>
+                  <p className="text-gray-700 mb-4">
+                    <strong>3D Printed Shelf</strong> – a stunning blend of functionality and art.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    The bracket's design is not just functional but also a conversation piece, with vibrant colors visually 
+                    indicating where the most stress occurs, giving insight into its structural performance.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    Ideal for modern and minimalist interiors, this shelve provides a sleek and sturdy solution for your shelving needs.
+                  </p>
+                  <p className="text-gray-700 mb-4">
+                    Topology optimization for this shelve eliminates any unnecessary material, reducing both waste and cost making 
+                    it both minimalist and eco-friendly solution for your home.
+                  </p>
+                  <p className="text-gray-700 mb-6">
+                    Elevate your storage with this innovative 3D printed book shelve.
+                  </p>
+
+                  <h5 className="text-xl font-bold mb-3">Benefits of the 3D Printed Shelf:</h5>
+                  <div className="space-y-3 text-gray-700">
+                    <div>
+                      <strong>1. Strength and Durability:</strong>
+                      <p className="ml-6">Designed using advanced topology optimization, the bracket offers superior strength ensuring long-lasting support.</p>
+                    </div>
+                    <div>
+                      <strong>2. Aesthetic Appeal:</strong>
+                      <p className="ml-6">The multicolor design adds a unique visual element turning a functional item into an artistic conversation piece.</p>
+                    </div>
+                    <div>
+                      <strong>3. Eco-Friendly:</strong>
+                      <p className="ml-6">By reducing excess material, the bracket is an environmentally friendly option promoting sustainability in home decor.</p>
+                    </div>
+                    <div>
+                      <strong>4. Minimalist Design:</strong>
+                      <p className="ml-6">The sleek form makes it a perfect fit for modern and minimalist interiors.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

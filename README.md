@@ -48,10 +48,17 @@ topology-nextjs/
 
 ## 🖼️ Grafiki
 
-Wszystkie zdjęcia produktów i logo zostały zaimportowane z oryginalnej strony WordPress:
-- **2,794 obrazy** z uploads/
-- **Logo** - oryginalne zielone 3D logo
-- **Zdjęcia półek** - fioletowe, białe, kolorowe warianty
+**UWAGA:** Ze względu na rozmiar (2,794 pliki, ~100MB), wszystkie grafiki z `uploads/` są dostępne LOKALNIE, ale NIE są w repo GitHub.
+
+Aby używać pełnej galerii grafik:
+1. Skopiuj folder `wordpress_complete/test/wp-content/uploads/` do `public/images/uploads/` lokalnie
+2. Grafiki będą działać na localhost
+3. Przed deployem na Vercel - dodaj tylko potrzebne obrazy lub użyj CDN
+
+**W repo są tylko:**
+- **Logo** - oryginalne zielone 3D logo (`public/logo.png`)
+- **Główne zdjęcia półek** - fioletowa, biała (`public/images/polka-*.jpg`)
+- **3 obrazy hero/slider** (`public/images/*.jpg`)
 
 ## 🎨 Kolory marki
 
