@@ -16,7 +16,7 @@ export default function Home() {
                 <Image src="/logo.png" alt="Topology" width={120} height={40} className="h-auto" />
               </a>
               <div className="hidden lg:flex gap-8">
-                <a href="#about" className="text-sm font-medium text-white hover:text-white/80 transition-colors uppercase">O NAS</a>
+                <a href="/about" className="text-sm font-medium text-white hover:text-white/80 transition-colors uppercase">O NAS</a>
                 <a href="#products" className="text-sm font-medium text-white hover:text-white/80 transition-colors uppercase">PRODUKTY</a>
                 <a href="/faq" className="text-sm font-medium text-white hover:text-white/80 transition-colors uppercase">FAQ</a>
                 <a href="#contact" className="text-sm font-medium text-white hover:text-white/80 transition-colors uppercase">KONTAKT</a>
